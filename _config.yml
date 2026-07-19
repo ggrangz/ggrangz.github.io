@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+# Welcome to Gauresh Rangaiyan's Portifolio!
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
@@ -7,17 +7,19 @@
 
 # Main Page Setup
 
-title: John Doe's Portfolio # This is what shows up in the tab of the browser
+title: Gauresh Rangaiyan's Portfolio # This is what shows up in the tab of the browser
 
 
 
 # Hero Section
-name: John Doe
-headline: headline message
+name: Gauresh Rangaiyan
+headline: Aerospace & Mechanical Engineering Student
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Write an awesome intro and discuss your highlights and qualification. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+Thriving in environments that foster collaboration, encourage creativity, and value diverse perspectives.
+I am not afraid to step out of my comfort zone and embrace new challenges. 
+It is through these experiences that it's the key to success and growth.
+I'm ready to immerse myself in opportunities that allow me to acquire new skills, expand my knowledge base, and cultivate a strong foundation for long-term success.
+
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/avatar.jpeg
