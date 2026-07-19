@@ -156,13 +156,7 @@ Vertical struts were most directly aligned with the applied compression load. Si
 
 ---
 
-## Results from the Broader Study
-
-> The numerical results below describe findings from the broader published research study and should not be interpreted as results produced independently by me.
-
 ### Improved Energy Absorption
-
-The study reported substantial increases in energy absorption after introducing deterministic elastomeric reinforcement.
 
 - A reinforcement volume fraction of approximately **1.26%** increased energy absorption by approximately **91%** relative to neat foam in one tested configuration.
 - Configurations containing approximately **5% reinforcement** achieved nearly **three times** the energy absorption and plateau stress of the unreinforced foam.
