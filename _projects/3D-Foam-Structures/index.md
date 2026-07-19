@@ -8,5 +8,5 @@ skills:
 - SOLIDWORKS
 - FEA
 - Additive Manufacturing
-main-image: /project.webp 
+main-image: /printfoam-3D-printed-foam.webp 
 ---
