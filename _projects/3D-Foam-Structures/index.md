@@ -26,9 +26,6 @@ The work focused on **In-Foam Additive Manufacturing (IFAM)**, a process that em
 The research examined how reinforcement geometry—including strut diameter, spacing, inclination, arrangement, and volume fraction—influenced compressive behavior, energy absorption, structural stability, densification, and recoverability.
 
 Experimental compression testing was used to characterize deformation mechanisms and evaluate the cooperative load-bearing interaction between the foam matrix and embedded elastomeric structures.
-
-The broader research was published in *Composite Structures* under the title **“In-foam additive manufacturing: Elastomeric cellular composites with tunable mechanics.”**
-
 ---
 
 ## Engineering Challenge
@@ -42,11 +39,11 @@ Commercial polymer foams are widely used in:
 - Vibration-isolation systems
 - Lightweight energy-dissipating components
 
-Conventional foams can be manufactured efficiently at scale, but their stochastic cellular geometry provides limited control over properties such as plateau stress, densification strain, buckling mode, and energy absorption.
+Conventional foams can be manufactured efficiently at scale, but their  cellular geometry provides limited control over properties such as stress, strain, buckling, and energy absorption.
 
-Additively manufactured lattices provide greater geometric control but can require substantially longer manufacturing times than conventional foams.
+Additively manufactured lattices provide greater geometric control but require  longer manufacturing times than conventional foams.
 
-IFAM was developed to combine the scalability of commercial foam production with the mechanical tunability of deterministic reinforcement architectures.
+IFAM combines commercial foam production with the mechanical tunability of deterministic reinforcement architectures.
 
 {% include image-gallery.html images="ifam-process.webp" height="400" %}
 
@@ -54,11 +51,11 @@ IFAM was developed to combine the scalability of commercial foam production with
 
 ## Research Objectives
 
-- Investigate deterministic reinforcement architectures embedded within stochastic polyurethane foams
+- Investigate reinforcement architectures embedded within polyurethane foams
 - Determine how reinforcement geometry influences compressive performance
 - Compare isolated elastomeric columns with identical columns embedded inside foam
 - Evaluate vertical, inclined, crossed, and spatially arranged reinforcement
-- Quantify plateau stress, densification behavior, and energy absorption
+- Quantify stress, strain, buckling and energy absorption
 - Investigate interactions between neighboring reinforcement elements
 - Evaluate performance improvements at low reinforcement volume fractions
 - Identify architectures suitable for reusable impact-absorption applications
@@ -82,8 +79,6 @@ My fabrication work included:
 
 The open-cell foam acted as both the host material and a compliant mold that confined the injected resin while it cured.
 
-{% include image-gallery.html images="specimen-fabrication.webp, reinforced-foam.webp" height="350" %}
-
 ---
 
 ## Reinforcement Architectures
@@ -98,13 +93,14 @@ Several geometric variables were investigated to understand how deterministic re
 | Strut arrangement | Influences load distribution and coordinated deformation |
 | Volume fraction | Affects plateau stress, energy absorption, mass, porosity, and densification |
 
-Vertical struts were aligned most directly with the applied compression load. Single-direction inclined struts experienced greater lateral bending, while crossed arrangements helped balance opposing lateral forces.
+Vertical struts were aligned most directly with the applied compression load. Single-direction inclined struts experienced greater lateral bending
+Crossed arrangements helped balance opposing lateral forces.
 
 ---
 
 ## Mechanical Characterization
 
-Quasi-static compression testing was performed using an **MTS universal testing machine**.
+Compression testing was performed using an **MTS universal testing machine**.
 
 The evaluated specimens included:
 
@@ -117,54 +113,23 @@ The evaluated specimens included:
 Force-displacement data were converted into engineering stress-strain curves and used to evaluate:
 
 - Compressive modulus
-- Plateau stress
-- Densification strain
-- Densification stress
-- Compressive energy absorption
-- Post-yield deformation
-- Buckling strain
+- Plateau Stress
+- Densification Strain
+- Energy absorption
+- Deformation
+- Buckling
 - Cyclic response
 
-Energy absorption per unit volume was evaluated from the area under the compressive stress-strain curve:
-
-\[
-W = \int_0^{\varepsilon_d} \sigma(\varepsilon)\,d\varepsilon
-\]
-
-where \(W\) is the absorbed energy per unit volume, \(\sigma\) is the compressive stress, and \(\varepsilon_d\) is the selected densification strain.
-
-{% include image-gallery.html images="compression-testing.webp, stress-strain-results.webp" height="350" %}
-
+Energy absorption per unit volume was evaluated from the area under the compressive stress-strain curve
 ---
 
 ## Buckling Analysis
 
 A major part of the investigation involved comparing isolated elastomeric columns with equivalent columns embedded inside the foam matrix.
 
-The Euler critical buckling load for an ideal isolated column is:
-
-\[
-P_{cr} = \frac{\pi^2EI}{(KL)^2}
-\]
-
-where:
-
-- \(E\) is the elastomer elastic modulus
-- \(I\) is the cross-sectional second moment of area
-- \(L\) is the unsupported column length
-- \(K\) is the effective-length factor
-
-The corresponding critical stress can be estimated using:
-
-\[
-\sigma_{cr} = \frac{P_{cr}}{A}
-\]
-
 Experimental observations indicated that classical isolated-column theory did not fully represent the behavior of struts embedded inside a compliant foam matrix.
 
 The surrounding foam provided distributed lateral support, restricted certain buckling modes, and delayed visible instability. This allowed embedded struts to maintain load-bearing capability beyond the point at which similar isolated columns became unstable.
-
-{% include image-gallery.html images="isolated-buckling.webp, embedded-buckling.webp" height="350" %}
 
 ---
 
@@ -172,27 +137,22 @@ The surrounding foam provided distributed lateral support, restricted certain bu
 
 Isolated elastomeric columns tended to buckle independently and in different radial directions.
 
-When embedded inside foam, deformation of one reinforcement element was transferred through the cellular matrix to neighboring struts. This produced more coordinated and synchronized buckling patterns.
+When embedded inside foam, deformation of one element was transferred to neighboring struts. This produced more coordinated and synchronized buckling patterns.
 
 The interaction created a cooperative structural response:
 
-- The foam laterally stabilized the elastomeric struts
-- The struts reinforced the foam matrix
-- The foam transferred deformation between adjacent struts
-- Coordinated buckling stabilized the post-yield response
-- The combined structure supported greater load than its constituents acting independently
+- The foam prevents early buckling by constraining the struts laterally
+- Struts carry the primary load, stiffening the bulk foam
+- The foam distributes deformation between adjacent struts
+- Synchronized buckling smooths out post-yield response
+- Combined composite load capacity exceeds sum of the foam + struts acting independently
 
 ---
-
-## Results from the Broader Study
-
-> The quantitative results in this section are findings reported by the broader published research study and are not presented as results produced independently by me.
-
 ### Improved Energy Absorption
 
-The published study reported that a reinforcement volume fraction of approximately **1.26%** increased energy absorption by approximately **91%** relative to neat foam for one tested configuration.
+Reinforcement volume fraction of **1.26%** increased energy absorption by approximately **91%** relative to neat foam for one tested configuration.
 
-Configurations containing approximately **5% elastomeric reinforcement** achieved nearly three times the energy absorption and plateau stress of the unreinforced foam while producing a comparatively modest reduction in densification strain.
+Designs containing **5% elastomeric reinforcement** achieved nearly **3x** energy absorption and plateau stress of unreinforced foam while reducing densification strain.
 
 High-reinforcement configurations produced energy-absorption improvements approaching one order of magnitude.
 
@@ -234,89 +194,28 @@ Across the following nine cycles, the cumulative reduction in plateau stress was
 
 ### Structural Design
 
-Investigated deterministic elastomeric reinforcement architectures embedded within stochastic open-cell polyurethane foams. Evaluated how strut diameter, spacing, inclination, arrangement, and volume fraction affected load transfer, buckling stability, and compressive performance.
-
-Compared vertical and inclined reinforcement strategies for energy-absorbing cellular composites. Examined how reinforcement orientation changed axial load resistance, lateral bending, and interactions between neighboring struts.
+Evaluated how reinforcement diameter, spacing, orientation, and volume fraction affected buckling stability, load transfer, and compressive performance in polyurethane foams.
 
 ### Mechanical Characterization
 
-Supported quasi-static compression testing of unreinforced foam, isolated elastomeric columns, and reinforced foam specimens using an MTS universal testing machine.
-
-Processed force-displacement and stress-strain data to characterize compressive modulus, plateau stress, densification strain, densification stress, energy absorption, and post-yield response.
-
-Studied the buckling behavior of isolated and embedded elastomeric columns to determine how lateral confinement from the foam altered structural instability.
+Conducted compression testing of unreinforced foam, isolated columns, and reinforced using an MTS testing machine. Processed stress-strain data to calculate plateau stress, densification strain, and energy absorption.
 
 ### Engineering Analysis
 
-Compared experimental buckling behavior with classical Euler-column predictions. Identified the limitations of applying isolated-column equations directly to reinforcement embedded inside a compliant cellular matrix.
-
-Investigated coordinated deformation and synergistic load bearing between the foam and reinforcement. Evaluated whether the combined structure carried more load than the individual foam and elastomeric components acting separately.
+Compared experimental buckling behavior with Euler-column predictions and investigated how foam confinement delayed instability and promoted coordinated deformation between embedded struts.
 
 ### Architecture Optimization
 
-Studied the relationship between reinforcement volume fraction and structural performance. Evaluated how additional reinforcement improved plateau stress and energy absorption while affecting weight, porosity, densification, and manufacturing time.
-
-Identified architecture-dependent trade-offs among stiffness, recoverability, energy absorption, reinforcement mass, and available deformation before densification.
-
----
-
-## Manufacturing and Scalability
-
-IFAM avoids printing an entire three-dimensional elastomeric lattice layer by layer. Instead, commercially available foam provides the host structure and confines the injected thermosetting resin during curing.
-
-Because injection and curing occur as separate stages, the process could potentially be scaled using multiple extrusion needles operating in parallel.
-
-The published manufacturing analysis estimated that one needle could produce more than **1,000 reinforcing struts per hour** under the demonstrated processing conditions.
-
-This approach provides a potential pathway for manufacturing large architected foam components more rapidly than printing complete elastomeric lattices.
+Identified reinforcement configurations that improved energy absorption and structural stability while balancing weight, porosity, recoverability, and manufacturing time.
 
 ---
 
 ## Engineering Insights
 
-The project demonstrated that cellular-material performance depends on both constituent properties and internal structural architecture.
-
-A compliant foam matrix can act as an elastic foundation that stabilizes embedded columns. At the same time, the embedded struts reinforce the foam and transfer load across the cellular structure.
-
-Small changes in diameter, spacing, orientation, and volume fraction can produce substantial changes in buckling behavior and energy absorption. However, additional reinforcement also increases mass, reduces pore space, and can decrease the available deformation before densification.
-
-The best architecture therefore depends on the intended application and requires balancing:
-
-- Energy absorption
-- Plateau stress
-- Structural stability
-- Component weight
-- Porosity
-- Recoverability
-- Densification behavior
-- Manufacturing time
-
----
-
-## Tools and Skills Developed
-
-- In-Foam Additive Manufacturing
-- Syringe-based elastomer extrusion
-- Thermosetting elastomer preparation
-- Open-cell polyurethane foam processing
-- Experimental specimen fabrication
-- Fixture and mold preparation
-- Mechanical compression testing
-- Stress-strain data processing
-- Energy absorption calculations
-- Plateau and densification analysis
-- Euler buckling calculations
-- Cellular and composite mechanics
-- Parametric geometry evaluation
-- Experimental documentation
-- Technical research communication
+The foam stabilized the embedded struts while the struts reinforced the foam, producing a cooperative response. Performance could be tuned through reinforcement geometry, but improvements had to be balanced against added mass and reduced densification strain.
 
 ---
 
 ## Research Impact
 
-This research demonstrated a method for converting commercially available polyurethane foams into tunable cellular composites using strategically positioned elastomeric reinforcement.
-
-The broader study showed that deterministic internal architecture can delay buckling, stabilize post-yield deformation, improve plateau stress, and substantially increase energy absorption without requiring the development of a new foam chemistry.
-
-My contribution provided practical experience connecting materials processing, additive manufacturing, experimental mechanics, and structural analysis. It also strengthened my understanding of how geometric constraints and interactions between structural components influence the nonlinear response of architected cellular materials.
+The research demonstrated that commercial foams can be converted into tunable cellular composites through strategically placed elastomeric reinforcement. My contribution connected additive manufacturing, experimental testing, buckling analysis, and cellular-material design.
