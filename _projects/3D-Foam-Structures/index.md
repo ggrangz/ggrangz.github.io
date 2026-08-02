@@ -46,7 +46,8 @@ Additively manufactured lattices provide greater geometric control but require  
 
 IFAM combines commercial foam production with the mechanical tunability of deterministic reinforcement architectures.
 
-{% include image-gallery.html images="highlight_1784465749407.webp" height="400" %}
+{% include image-gallery.html images="Screenshot 2026-08-02 193422.png" height="400" %}
+
 
 ---
 
