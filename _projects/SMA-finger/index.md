@@ -14,7 +14,7 @@ skills:
   - Shape-Memory Alloys
   - Experimental Validation
   - Root-Cause Analysis
-main-image: /soft-robotic-finger-main.webp
+main-image: /highlight_1784475201361.webp
 ---
 
 ## Timeline
