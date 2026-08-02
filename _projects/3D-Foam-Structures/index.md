@@ -25,7 +25,8 @@ The work focused on **In-Foam Additive Manufacturing (IFAM)**, a process that em
 
 The research examined how reinforcement geometry—including strut diameter, spacing, inclination, arrangement, and volume fraction—influenced compressive behavior, energy absorption, structural stability, densification, and recoverability.
 
-Experimental compression testing was used to characterize deformation mechanisms and evaluate the cooperative load-bearing interaction between the foam matrix and embedded elastomeric structures.
+Experimental compression testing was used to characterize deformation and evaluate the cooperative load bearing interaction between foam matrix and elastomeric structures
+
 ---
 
 ## Engineering Challenge
