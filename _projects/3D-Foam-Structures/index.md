@@ -14,7 +14,7 @@ skills:
   - Energy Absorption Analysis
   - Euler Buckling Analysis
   - DOE
-main-image: /printfoam-3D-printed-foam.webp
+main-image: /printfoam-3D-printed-foam.jpg
 ---
 
 ## Project Overview
