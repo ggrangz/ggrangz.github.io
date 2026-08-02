@@ -46,7 +46,7 @@ Additively manufactured lattices provide greater geometric control but require  
 
 IFAM combines commercial foam production with the mechanical tunability of deterministic reinforcement architectures.
 
-main-image: /highlight_1784465749407.webp
+{% include image-gallery.html images="highlight_1784465749407.webp" height="400" %}
 
 ---
 
@@ -61,7 +61,7 @@ main-image: /highlight_1784465749407.webp
 - Evaluate performance improvements at low reinforcement volume fractions
 - Identify architectures suitable for reusable impact-absorption applications
 
-main-image: /highlight_1784465756288.webp
+{% include image-gallery.html images="highlight_1784465756288.webp" height="400" %}
 
 ---
 
@@ -82,7 +82,8 @@ My fabrication work included:
 
 The open-cell foam acted as both the host material and a compliant mold that confined the injected resin while it cured.
 
-main-image: /highlight_1784465760772.webp
+{% include image-gallery.html images="highlight_1784465760772.webp" height="400" %}
+
 
 ---
 
