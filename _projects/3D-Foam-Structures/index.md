@@ -46,8 +46,6 @@ Additively manufactured lattices provide greater geometric control but require  
 
 IFAM combines commercial foam production with the mechanical tunability of deterministic reinforcement architectures.
 
-{% include image-gallery.html images="Screenshot 2026-08-02 193422.png" height="400" %}
-
 
 ---
 
@@ -84,7 +82,6 @@ My fabrication work included:
 The open-cell foam acted as both the host material and a compliant mold that confined the injected resin while it cured.
 
 {% include image-gallery.html images="highlight_1784465760772.webp" height="400" %}
-
 
 ---
 
@@ -128,6 +125,8 @@ Force-displacement data were converted into engineering stress-strain curves and
 - Cyclic response
 
 Energy absorption per unit volume was evaluated from the area under the compressive stress-strain curve
+
+{% include image-gallery.html images="Screenshot 2026-08-02 193422.png" height="400" %}
 ---
 
 ## Buckling Analysis
@@ -137,6 +136,8 @@ A major part of the investigation involved comparing isolated elastomeric column
 Experimental observations indicated that classical isolated-column theory did not fully represent the behavior of struts embedded inside a compliant foam matrix.
 
 The surrounding foam provided distributed lateral support, restricted certain buckling modes, and delayed visible instability. This allowed embedded struts to maintain load-bearing capability beyond the point at which similar isolated columns became unstable.
+
+{% include image-gallery.html images="highlight_1784465749407.webp" height="400" %}
 
 ---
 
