@@ -12,7 +12,7 @@ skills:
   - Design for Manufacturing
   - Mastercam
   - Haas CNC Milling
-main-image: /irl-manufactured.webp
+main-image: /images.jpg
 ---
 
 ## Project Overview
