@@ -14,7 +14,7 @@ skills:
   - Rapid Prototyping
   - Engineering Drawings
   - Design Validation
-main-image: /larm-main.webp
+main-image: /syringe irl.webp
 ---
 
 ## Timeline
@@ -55,4 +55,4 @@ Produced detailed part drawings, assembly documentation, dimensions, tolerances,
 
 Delivered an integrated lower-arm and syringe end-effector prototype with improved reliability and positioning repeatability, supporting faster wet-lab testing and design iteration.
 
-{% include image-gallery.html images="larm-cad.webp, larm-prototype.webp, syringe-end-effector.webp" height="350" %}
+{% include image-gallery.html images="cad assembly.webp, poster.webp" height="350" %}
