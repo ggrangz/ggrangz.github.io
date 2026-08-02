@@ -12,7 +12,7 @@ skills:
   - Design for Manufacturing
   - Mastercam
   - Haas CNC Milling
-main-image: /bell-crank-main.webp
+main-image: /irl-manufactured.webp
 ---
 
 ## Project Overview
@@ -36,8 +36,6 @@ Reconstructed the topology result as clean CAD geometry, remeshed it, and compar
 Reduced component mass by **214.56 g** while limiting the increase in peak stress to **8.28 MPa** and displacement to **0.003 mm**.
 
 Prepared the optimized geometry through a CAD/CAM workflow and manufactured it using a **three-axis Haas CNC mill**.
-
-{% include image-gallery.html images="original-bell-crank.webp, topology-result.webp, machined-bell-crank.webp" height="350" %}
 
 ---
 
@@ -65,6 +63,8 @@ The stress changed by approximately **0.2%** between the final two mesh levels, 
 
 The optimized design achieved substantial weight reduction with comparatively small increases in predicted stress and displacement.
 
+{% include image-gallery.html images="fea1.webp, fea2.webp, fea3.webp" height="350" %}
+
 ---
 
 ## Manufacturing
@@ -80,6 +80,8 @@ The manufacturing workflow included:
 - Hole machining
 - Deburring and dimensional inspection
 - Fabrication using a three-axis Haas CNC mill
+
+{% include image-gallery.html images="irl-manufactured.webp" height="400" %}
 
 ---
 
