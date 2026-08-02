@@ -13,7 +13,7 @@ skills:
   - Structural Design
   - DFM
   - CNC Machining
-main-image: /aviation-bracket-main.webp
+main-image: /table.webp
 ---
 
 ## Project Overview
@@ -41,8 +41,7 @@ The optimization process was developed around the following requirements:
 - Convert topology results into smooth and manufacturable CAD geometry
 - Develop a configuration compatible with CNC machining or metal additive manufacturing
 
-{% include image-gallery.html images="original-bracket.webp, topology-result.webp" height="400" %}
-
+{% include image-gallery.html images="OG_CAD.webp, topology.webp" height="400" %}
 ---
 
 ## Material Evaluation
@@ -119,8 +118,7 @@ Irregular topology surfaces were not treated as final production geometry. They 
 
 The three redesigned brackets were then evaluated using the same nominal material properties, constraints, loading conditions, and output metrics.
 
-{% include image-gallery.html images="bracket-design-1.webp, bracket-design-2.webp, bracket-design-3.webp" height="350" %}
-
+{% include image-gallery.html images="CAD1.webp, CAD2.webp, CAD3.webp" height="350" %}
 ---
 
 ## Mass Comparison
@@ -137,6 +135,8 @@ Design 2 was the lightest configuration, but minimum mass alone was not used to 
 ---
 
 ## Structural Analysis Results
+
+{% include image-gallery.html images="FEA1.webp, FEA2.webp, FEA3.webp" height="350" %}
 
 ### Vertical Loading
 
@@ -229,6 +229,8 @@ A fatigue life of \(10^6\) to \(10^7\) cycles should therefore be presented as a
 ## Manufacturing Considerations
 
 The topology-optimized geometry was reviewed for compatibility with CNC machining and metal additive manufacturing.
+
+{% include image-gallery.html images="drawing.webp" height="400" %}
 
 Manufacturing-oriented redesign included:
 
