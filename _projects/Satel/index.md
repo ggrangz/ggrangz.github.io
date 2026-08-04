@@ -15,7 +15,7 @@ skills:
   - CNC Manufacturing
   - Mastercam
   - GD&T
-main-image: /satellite-isogrid-main.webp
+main-image: /satellite assembly manufactured.png
 ---
 
 ## Project Overview
@@ -75,7 +75,7 @@ The isogrid panels used repeated triangular cells, while the honeycomb panels us
 | Compression | 54.39 × 32.75 × 6 mm |
 | Three-point bending | 108.75 × 32.75 × 6 mm |
 
-{% include image-gallery.html images="initial-panel-designs.webp" height="400" %}
+{% include image-gallery.html images="configs.jpg, fea configs.jpg" height="400" %}
 
 ---
 
@@ -83,7 +83,7 @@ The isogrid panels used repeated triangular cells, while the honeycomb panels us
 
 ### Compression Simulation
 
-Compression was modeled in ANSYS using an explicit dynamic analysis. A prescribed displacement of **18 mm** was applied over a simulation duration of **0.0005 seconds**.
+Compression was modeled in ANSYS using explicit dynamic analysis. A prescribed displacement of **18 mm** was applied over a simulation duration of **0.0005 seconds**.
 
 The analysis evaluated:
 
@@ -95,7 +95,7 @@ The analysis evaluated:
 
 ### Three-Point Bending Simulation
 
-A static structural analysis was used to simulate three-point bending. The model contained one upper loading cylinder and two lower support cylinders.
+Static structural analysis was used to simulate three-point bending. The model included one upper loading cylinder and two lower support cylinders.
 
 The numerical setup incorporated:
 
@@ -111,7 +111,7 @@ Modal FEA was used to predict the natural frequencies and mode shapes of each pa
 
 The modal predictions were not experimentally validated and should therefore be interpreted as simulation results rather than measured frequencies.
 
-{% include image-gallery.html images="compression-fea.webp, bending-fea.webp, modal-analysis.webp" height="350" %}
+{% include image-gallery.html images="Total deformation and specimen mode shapes of mode 1.jpg, natural frequency modes.png" height="350" %}
 
 ---
 
@@ -128,6 +128,8 @@ The outsourced testing included:
 - Documentation of post-test deformation and failure behavior
 
 The supplied data were processed to calculate strength-to-weight metrics, compare the five configurations, and assess whether the simulations captured the observed structural trends.
+
+{% include image-gallery.html images="experimental testing results.jpg" height="400" %}
 
 ---
 
@@ -202,6 +204,8 @@ After selecting the 2 mm rib width, the triangular cell length was varied betwee
 | 24 mm open isogrid | 66.379 g | 10.87 MPa/g | 45.47 MPa/g | 1,031.1 Hz |
 | 24 mm isogrid with integral skin | 91.341 g | 7.94 MPa/g | 29.20 MPa/g | 1,308.7 Hz |
 
+{% include image-gallery.html images="12_18_24_compression_bending_testing.jpg, triangular configs.png" height="350" %}
+
 Increasing the open-isogrid cell length from 12 mm to 24 mm reduced the panel mass from **102.020 to 66.379 g**, representing a **34.9% reduction**.
 
 The 24 mm open isogrid produced the highest reported compression and bending performance per unit mass. However, its wider rib spacing also produced the lowest predicted frequency among the three open-isogrid designs.
@@ -226,7 +230,7 @@ Compared with the open 24 mm isogrid, the integral skin increased mass from **66
 
 The monolithic construction also eliminated the adhesive interface that would otherwise be required to attach a separate face sheet to the grid.
 
-{% include image-gallery.html images="open-isogrid.webp, skinned-isogrid.webp" height="400" %}
+{% include image-gallery.html images="von mises 2 mm skinned.png" height="400" %}
 
 ---
 
@@ -243,7 +247,7 @@ The selected wall-panel architecture was incorporated into a hexagonal satellite
 
 The top and bottom plates had a reported hexagonal diagonal of **166.14 mm**, a thickness of **6 mm**, and six **4 mm countersunk through-holes**.
 
-{% include image-gallery.html images="satellite-assembly.webp" height="450" %}
+{% include image-gallery.html images="satellite assembly.png, satellite assembly manufactured.png" height="400" %}
 
 ---
 
@@ -258,6 +262,8 @@ The satellite assembly was constrained at the top and bottom rail interfaces and
 | Material yield strength | 103 MPa |
 | Calculated yield factor of safety | 1.15 |
 
+{% include image-gallery.html images="von mises satellite assembly.png" height="400" %}
+
 The simulated maximum stress remained below the assigned material yield strength. However, the calculated factor of safety of **1.15 represents a limited structural margin** and should not be described as substantial without assembly-level physical testing.
 
 ---
@@ -267,6 +273,8 @@ The simulated maximum stress remained below the assigned material yield strength
 The simulated first natural frequency of the assembled satellite was **300.85 Hz**, exceeding the cited minimum launcher requirement of **50 Hz**.
 
 This result indicates predicted frequency separation from the stated minimum requirement. It does not guarantee avoidance of resonance without comparison against the launcher excitation spectrum, experimental mode shapes, damping, and measured frequency-response data.
+
+{% include image-gallery.html images="natural frequency modes for satellite.png" height="400" %}
 
 ---
 
