@@ -12,7 +12,7 @@ skills:
   - Design for Manufacturing
   - Engineering Drawings
   - Bill of Materials
-main-image: /uav-chassis.webp
+main-image: /highlight_1784475403273.webp
 ---
 
 ## Project Overview
@@ -25,7 +25,7 @@ A parametric chassis model was developed in Fusion 360 and evaluated using finit
 
 The final design achieved a **15% mass reduction** while maintaining the required structural-integrity targets.
 
-{% include image-gallery.html images="uav-chassis.webp" height="450" %}
+{% include image-gallery.html images="highlight_1784475403273.webp" height="450" %}
 
 ---
 
