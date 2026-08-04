@@ -15,7 +15,7 @@ skills:
   - Goodman Criterion
   - Paris Law
   - Parametric Optimization
-main-image: /perforated_plate_wallpaper.jpg
+main-image: /perforated plate wallpaper.jpg
 ---
 
 ## Project Overview
