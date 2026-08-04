@@ -61,12 +61,6 @@ skills:
     - Sheet Metal
     - Welding (Automatic)
     - Python
-  - category: Design Standards / Practices
-    tools:
-    - GD&T 
-  - category: Problem Solving / Risk Management
-    tools:
-    - DFMEA
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
 # Only if the template expects the Formspree form ID:
