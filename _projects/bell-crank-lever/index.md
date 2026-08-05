@@ -81,7 +81,7 @@ The manufacturing workflow included:
 - Deburring and dimensional inspection
 - Fabrication using a three-axis Haas CNC mill
 
-{% include image-gallery.html images="irl-manufactured.webp" height="400" %}
+{% include image-gallery.html images="irl manufactured.webp" height="400" %}
 
 ---
 
