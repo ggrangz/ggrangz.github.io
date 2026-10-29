@@ -98,7 +98,7 @@ The image files are stored alongside this `index.md` in the project folder shown
 {% include image-gallery.html images="22_23_00.webp" height="400" %}
 ### Separate one-degree-of-freedom layouts
 
-{% include image-gallery.html images="22_23_05.webp" height="400" %}
+{% include image-gallery.html images="22_23_00.webp" height="400" %}
 ### Approved nested two-degree-of-freedom concept
 
 {% include image-gallery.html images="22_23_09.webp" height="400" %}
