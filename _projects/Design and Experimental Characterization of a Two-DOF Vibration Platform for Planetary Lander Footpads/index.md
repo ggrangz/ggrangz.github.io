@@ -8,7 +8,7 @@ skills:
   - Prototype development
   - Transducer instrumentation
   - Experimental data collection
-main-image: /assets/images/22_23_09.png
+main-image: /_projects/Design and Experimental Characterization of a Two-DOF Vibration Platform for Planetary Lander Footpads/22_23_09.png
 ---
 
 ## Situation
@@ -83,30 +83,32 @@ I use the motion checks and test data to identify binding, vibration coupling, s
 
 ## Design Images
 
-I upload the following image files to this project folder using these exact filenames. I also upload the approved concept image to `assets/images/22_23_09.png` for the project card.
+The image files are stored alongside this `index.md` in the project folder shown in the gallery include paths.
 
 ### Initial rail and actuator layout
 
-{% include image-gallery.html images="22_22_45.png" height="400" %}
+{% include image-gallery.html images="/_projects/Design and Experimental Characterization of a Two-DOF Vibration Platform for Planetary Lander Footpads/22_22_45.png" height="400" %}
 
 ### Two-stage concept iteration
 
-{% include image-gallery.html images="22_22_56.png" height="400" %}
+{% include image-gallery.html images="/_projects/Design and Experimental Characterization of a Two-DOF Vibration Platform for Planetary Lander Footpads/22_22_56.png" height="400" %}
 
 ### Exploded assembly iteration
 
-{% include image-gallery.html images="22_23_00.png" height="400" %}
+{% include image-gallery.html images="/_projects/Design and Experimental Characterization of a Two-DOF Vibration Platform for Planetary Lander Footpads/22_23_00.png" height="400" %}
 
 ### Separate one-degree-of-freedom layouts
 
-{% include image-gallery.html images="22_23_05.png" height="400" %}
+{% include image-gallery.html images="/_projects/Design and Experimental Characterization of a Two-DOF Vibration Platform for Planetary Lander Footpads/22_23_05.png" height="400" %}
 
 ### Approved nested two-degree-of-freedom concept
 
-{% include image-gallery.html images="22_23_09.png" height="400" %}
+{% include image-gallery.html images="/_projects/Design and Experimental Characterization of a Two-DOF Vibration Platform for Planetary Lander Footpads/22_23_09.png" height="400" %}
 
 ## Result
 
 The current proof of concept shows how two stacked stages give one footpad two degrees of freedom, and the professor confirms that the arrangement is operationally equivalent to the meeting drawing. I am developing the concept into a structurally supported, instrumented prototype through the steps above. Fabrication and experimental results remain part of my ongoing work.
+
+
 
 
