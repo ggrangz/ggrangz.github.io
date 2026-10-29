@@ -8,7 +8,7 @@ skills:
   - Prototype development
   - Transducer instrumentation
   - Experimental data collection
-main-image: /assets/images/planetary-lander-platform.webp
+main-image: /assets/images/22_23_09.png
 ---
 
 ## Situation
@@ -83,7 +83,7 @@ I use the motion checks and test data to identify binding, vibration coupling, s
 
 ## Design Images
 
-I upload the following images to this project folder and keep the filenames in the includes consistent with the uploaded files.
+I upload the following image files to this project folder using these exact filenames. I also upload the approved concept image to `assets/images/22_23_09.png` for the project card.
 
 ### Initial rail and actuator layout
 
@@ -108,3 +108,5 @@ I upload the following images to this project folder and keep the filenames in t
 ## Result
 
 The current proof of concept shows how two stacked stages give one footpad two degrees of freedom, and the professor confirms that the arrangement is operationally equivalent to the meeting drawing. I am developing the concept into a structurally supported, instrumented prototype through the steps above. Fabrication and experimental results remain part of my ongoing work.
+
+
