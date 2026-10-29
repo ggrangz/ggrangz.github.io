@@ -23,7 +23,31 @@
 </div>
 
 
+
 {% assign image_paths = include.images | split: ", " %}
 {% assign gallery_height = include.height | default: "300" %}
+
+<div class="image-gallery" style="--gallery-height: {{ gallery_height }}px;">
+  {% for image_path in image_paths %}
+    {% assign image_name = image_path | strip %}
+    {% assign first_char = image_name | slice: 0 %}
+
+    {% if image_name contains '://' %}
+      {% assign image_src = image_name %}
+    {% elsif first_char == '/' %}
+      {% assign image_src = image_name %}
+    {% else %}
+      {% assign page_url_without_index = page.url | remove: 'index' | remove: '.html' %}
+      {% assign image_src = image_name | prepend: page_url_without_index %}
+    {% endif %}
+
+    <img
+      src="{{ image_src }}"
+      alt="{{ image_name }}"
+      loading="lazy"
+      onerror="this.onerror=null; this.alt='Image failed to load: {{ image_name }}';"
+    />
+  {% endfor %}
+</div>
 
 
