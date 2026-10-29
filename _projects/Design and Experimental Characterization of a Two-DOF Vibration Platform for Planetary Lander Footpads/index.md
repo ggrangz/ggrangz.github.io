@@ -89,7 +89,7 @@ The image files are stored alongside this `index.md` in the project folder shown
 
 ### Initial rail and actuator layout
 
-{% include image-gallery.html images="/22_22_45.webp" height="400" %}
+{% include image-gallery.html images="/image (1).png" height="400" %}
 ### Two-stage concept iteration
 
 {% include image-gallery.html images="/22_22_56.png" height="400" %}
