@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Two-DOF Vibration Platform for a Planetary Lander Footpad
@@ -12,9 +11,8 @@ skills:
   - Prototype Development
   - Transducer Instrumentation
   - Experimental Data Collection
-main-image: /22_23_09.png
+main-image: /_projects/Design%20and%20Experimental%20Characterization%20of%20a%20Two-DOF%20Vibration%20Platform%20for%20Planetary%20Lander%20Footpads/22_23_09.png
 ---
-
 ## Situation
 
 I am developing a scaled planetary-lander footpad test setup to study its mechanical response in planetary soil simulant. During design reviews, I identify that two separate one-axis mechanisms do not give one footpad two degrees of freedom. The approved proof of concept uses two stacked stages so both actuators contribute to the same footpad’s motion.
