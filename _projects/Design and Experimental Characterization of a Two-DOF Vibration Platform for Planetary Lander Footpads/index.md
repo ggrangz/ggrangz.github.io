@@ -11,7 +11,7 @@ skills:
   - Prototype Development
   - Transducer Instrumentation
   - Experimental Data Collection
-main-image: /_projects/Design%20and%20Experimental%20Characterization%20of%20a%20Two-DOF%20Vibration%20Platform%20for%20Planetary%20Lander%20Footpads/22_23_09.webp
+main-image: /22_22_45.webp
 ---
 ## Situation
 
