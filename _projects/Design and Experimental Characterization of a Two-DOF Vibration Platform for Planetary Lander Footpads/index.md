@@ -11,7 +11,7 @@ skills:
   - Prototype Development
   - Transducer Instrumentation
   - Experimental Data Collection
-main-image: /_projects/Design%20and%20Experimental%20Characterization%20of%20a%20Two-DOF%20Vibration%20Platform%20for%20Planetary%20Lander%20Footpads/22_23_09.png
+main-image: /_projects/Design%20and%20Experimental%20Characterization%20of%20a%20Two-DOF%20Vibration%20Platform%20for%20Planetary%20Lander%20Footpads/22_23_09.webp
 ---
 ## Situation
 
@@ -89,19 +89,19 @@ The image files are stored alongside this `index.md` in the project folder shown
 
 ### Initial rail and actuator layout
 
-{% include image-gallery.html images="22_22_45.png" height="400" %}
+{% include image-gallery.html images="22_22_45.webp" height="400" %}
 ### Two-stage concept iteration
 
-{% include image-gallery.html images="22_22_56.png" height="400" %}
+{% include image-gallery.html images="22_22_56.webp" height="400" %}
 ### Exploded assembly iteration
 
-{% include image-gallery.html images="22_23_00.png" height="400" %}
+{% include image-gallery.html images="22_23_00.webp" height="400" %}
 ### Separate one-degree-of-freedom layouts
 
-{% include image-gallery.html images="22_23_05.png" height="400" %}
+{% include image-gallery.html images="22_23_05.webp" height="400" %}
 ### Approved nested two-degree-of-freedom concept
 
-{% include image-gallery.html images="22_23_09.png" height="400" %}
+{% include image-gallery.html images="22_23_09.webp" height="400" %}
 ## Result
 
 The current proof of concept shows how two stacked stages give one footpad two degrees of freedom, and the professor confirms that the arrangement is operationally equivalent to the meeting drawing. I am developing the concept into a structurally supported, instrumented prototype through the steps above. Fabrication and experimental results remain part of my ongoing work.
