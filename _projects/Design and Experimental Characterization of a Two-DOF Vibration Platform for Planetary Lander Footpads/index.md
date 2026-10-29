@@ -87,23 +87,23 @@ I upload the following images to this project folder and keep the filenames in t
 
 ### Initial rail and actuator layout
 
-{% include image-gallery.html images="ChatGPT Image 28 Oct 2026, 22_22_45.png" height="400" %}
+{% include image-gallery.html images="22_22_45.png" height="400" %}
 
 ### Two-stage concept iteration
 
-{% include image-gallery.html images="ChatGPT Image 28 Oct 2026, 22_22_56.png" height="400" %}
+{% include image-gallery.html images="22_22_56.png" height="400" %}
 
 ### Exploded assembly iteration
 
-{% include image-gallery.html images="ChatGPT Image 28 Oct 2026, 22_23_00.png" height="400" %}
+{% include image-gallery.html images="22_23_00.png" height="400" %}
 
 ### Separate one-degree-of-freedom layouts
 
-{% include image-gallery.html images="ChatGPT Image 28 Oct 2026, 22_23_05.png" height="400" %}
+{% include image-gallery.html images="22_23_05.png" height="400" %}
 
 ### Approved nested two-degree-of-freedom concept
 
-{% include image-gallery.html images="ChatGPT Image 28 Oct 2026, 22_23_09.png" height="400" %}
+{% include image-gallery.html images="22_23_09.png" height="400" %}
 
 ## Result
 
