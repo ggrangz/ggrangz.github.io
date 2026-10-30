@@ -70,6 +70,7 @@ The intended setup is portable and manageable by one person. The mast base would
 The antenna is the [Ubiquiti AM-5AC21-60](https://store.ui.com/us/en/category/wireless-antennas/products/am-5ac21-60)
 
 {% include image-gallery.html images="sensor.webp" height="400" %}
+{% include image-gallery.html images="sensor.webp" height="400" %}
 
 The listed antenna dimensions are **750 × 173 × 78 mm** (29.5 × 6.8 × 3 in). It is rectangular and has no cylindrical diameter. Its top end cap measures **173 × 78 mm**.
 
