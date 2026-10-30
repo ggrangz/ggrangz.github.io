@@ -10,7 +10,7 @@ skills:
   - Structural design
   - System integration
   - Controls
-main-image: /antenna.png
+main-image: /pan_mount_layout_comparison.png
 ---
 
 ## Project status
@@ -46,6 +46,8 @@ I was asked to develop a preliminary mount concept that could:
 - Receive steering commands electronically from the C2 station.
 - Determine antenna direction without camera-based visual tracking.
 
+{% include image-gallery.html images="requirements.webp" height="400" %}
+
 ## Action
 
 ### Proposed architecture
@@ -61,9 +63,13 @@ The mount breaks down into four main parts:
 
 The intended setup is portable and manageable by one person. The mast base would be placed within 5 m of the C2 station. The three guy-line stakes would be placed roughly 2–4 m from the mast, with their final locations checked to keep them within 10 m of the C2 station.
 
+{% include image-gallery.html images="pan_mount_elevation_concept.png" height="400" %}
+
 ### Antenna and sourced dimensions
 
-The antenna is the [Ubiquiti AM-5AC21-60](https://store.ui.com/us/en/category/wireless-antennas/products/am-5ac21-60).
+The antenna is the [Ubiquiti AM-5AC21-60](https://store.ui.com/us/en/category/wireless-antennas/products/am-5ac21-60)
+
+{% include image-gallery.html images="sensor.webp" height="400" %}
 
 The listed antenna dimensions are **750 × 173 × 78 mm** (29.5 × 6.8 × 3 in). It is rectangular and has no cylindrical diameter. Its top end cap measures **173 × 78 mm**.
 
@@ -92,6 +98,8 @@ The antenna consumes a substantial part of the 3 m height budget. The initial on
 
 These are preliminary layout dimensions. The height rule should be checked to confirm whether it is measured to the antenna tip or another component, and which ground reference applies.
 
+{% include image-gallery.html images="pan_mount_layout_comparison.png" height="400" %}
+
 ### Pan head and antenna attachment
 
 The proposed pan head uses a housing of approximately **Ø180 × 130 mm**. A slewing bearing of approximately **130 mm OD × 80 mm ID × 20 mm** provides the rotating interface. Its 80 mm center bore leaves a route for the cable. A **Ø160 × 10 mm** top plate brings the total head height to about **160 mm**.
@@ -111,6 +119,8 @@ With the pan axis through the center of the antenna’s cross-section, the anten
 A placeholder radio block of **162 × 84 × 37 mm** was estimated from a retailer listing. Its dimensions need to be checked against the actual radio. Cable routing and guy-line attachment points must also stay clear of the swept envelope.
 
 If the axis is placed at the antenna’s back plate instead of through the cross-section, the swept radius grows to the full **173 mm antenna width**, before adding the radio and brackets.
+
+{% include image-gallery.html images="pan_mount_top_view_footprint.png" height="400" %}
 
 ### Steering, position feedback, and cabling
 
