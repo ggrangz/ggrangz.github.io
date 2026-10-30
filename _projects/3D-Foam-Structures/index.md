@@ -1,6 +1,6 @@
 ---
 layout: post
-title: In-Foam Additive Manufacturing
+title: In-Foam 3D printing Shock Absorption
 description: >-
   Investigated how deterministic elastomeric reinforcement can improve the
   buckling stability, compressive response, and energy absorption of commercial
