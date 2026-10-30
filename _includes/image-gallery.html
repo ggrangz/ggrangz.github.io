@@ -22,9 +22,3 @@
   {% endfor %}
 </div>
 
-<img 
-    src="{{ page_url_without_index }}{{ image_name }}" 
-    alt="{{ image_name }}"
-    loading="lazy"
-    onerror="this.onerror=null; var a=document.createElement('a'); a.href=this.src; a.target='_blank'; a.textContent='🖼 ' + this.alt + ' (image failed to load)'; this.replaceWith(a);"
-/>
