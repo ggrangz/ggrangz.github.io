@@ -166,6 +166,8 @@ The preliminary concept defines a portable, motorized pan mount and two candidat
 
 The work is still at the design and prototyping stage. No claim is made that the mount has been built, tested, or validated.
 
+{% include image-gallery.html images="antenna.png" height="400" %}
+
 ## Open items and next steps
 
 1. Confirm how the URC measures the 3 m height limit, including the relevant ground reference and whether the antenna tip is the measurement point.
