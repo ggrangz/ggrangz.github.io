@@ -10,7 +10,7 @@ skills:
   - Structural design
   - System integration
   - Controls
-main-image: /projects/mechanized-antenna/concept-render.webp
+main-image: /antenna.png
 ---
 
 ## Project status
